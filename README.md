@@ -8,7 +8,7 @@ This site is satire.
 The certificate is real.
 The impact is imaginary.
 
-## Features
+## Features
 * Generates meaningless PDF certificates instantly
 * Fake testimonials from fake startups with fake titles
 * Zero friction, zero cost, zero substance
