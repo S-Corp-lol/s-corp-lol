@@ -47,7 +47,7 @@ export default function LandingPage() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-base sm:text-lg md:text-xl text-center text-zinc-600 max-w-xl mb-6 px-4"
         >
-        For a reasonable fee ($0.00), we'll send you a badge, a certificate, and a warm fuzzy feeling. No audits. No paperwork. No impact.
+        For a reasonable fee ($0.00), we'll send you a badge, a certificate, and a warm fuzzy feeling. <br /> No audits. No paperwork. No impact.
       </motion.p>
 
       <Link to="/gen">
@@ -60,7 +60,7 @@ export default function LandingPage() {
       {testimonials.map((text, i) => (
           <div
             key={i}
-            className="bg-white shadow-md rounded-2xl p-4 text-sm text-zinc-800 italic w-full sm:min-w-[280px] sm:max-w-sm"
+            className={`bg-white shadow-md rounded-2xl p-4 text-sm text-zinc-800 italic w-full sm:min-w-[280px] sm:max-w-sm ${i > 2 ? "hidden sm:block" : ""}`}
           >
             {text}
           </div>
