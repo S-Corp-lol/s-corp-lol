@@ -26,7 +26,7 @@ const FooterLite = () => {
         </a>{" "}
       </div>
       <div>
-      If you have to manage package updates on linux systems, check out <a href="https://aptfleet.com?utm_source=s-corp&utm_medium=website&utm_campaign=satire&utm_id=sc">AptFleet</a> for a better way to manage your package updates.
+      If you have to manage package updates on linux systems, check out <a href="https://www.aptfleet.com?utm_source=s-corp&utm_medium=website&utm_campaign=satire&utm_id=sc">AptFleet</a> for a better way to manage your package updates.
       </div>
       </div>
     </footer>
