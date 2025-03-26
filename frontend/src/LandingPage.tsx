@@ -29,7 +29,7 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center">
+    <main className="min-h-screen flex flex-col items-center justify-center w-full max-w-screen-xl mx-auto px-4">
       <img src={Logo} alt="S Corp Logo" className="w-32 h-32" />
 
       <motion.h1
