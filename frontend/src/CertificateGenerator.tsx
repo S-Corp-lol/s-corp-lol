@@ -6,8 +6,9 @@ import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
 import { Loader2 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import Footer from "./components/Footer";
 import Logo from "@/assets/S-Square.png";
+import BuyMeACoffee from "./components/BuyMeACoffee";
+import FooterLite from "./components/FooterLite";
 
 const CongratulationsFireworks = () => {
   const duration = 5 * 1000;
@@ -179,9 +180,10 @@ export default function CertificateGenerator() {
               "Download Certificate"
             )}
           </Button>
+          <BuyMeACoffee />
         </motion.div>
       )}
-      <Footer />
+      <FooterLite />
     </main>
   );
 }
