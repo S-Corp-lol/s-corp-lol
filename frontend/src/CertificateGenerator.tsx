@@ -139,7 +139,7 @@ export default function CertificateGenerator() {
               setGenerated(true);
               CongratulationsFireworks();
             }}
-            disabled={!company.trim()}
+            
           >
             Generate Certificate
           </Button>
@@ -171,6 +171,7 @@ export default function CertificateGenerator() {
             className="mt-6"
             onClick={downloadCertificate}
             disabled={loading}
+            variant={loading ? "ghost" : "default"}
           >
             {loading ? (
               <Loader2 className="animate-spin h-5 w-5" />
