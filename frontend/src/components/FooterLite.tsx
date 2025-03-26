@@ -1,7 +1,5 @@
 import {ReactSVG} from "react-svg";
 import ComnocoLogo from "@/assets/Comnoco_Logo.svg";
-import BuyMeACoffee from "./BuyMeACoffee";
-// import AptFleetLogo from "@/assets/aptfleet-logo-text-export.svg";
 const FooterLite = () => {
   return (
     <footer className="w-full text-center text-sm text-zinc-500 px-6 pb-10 space-y-4 max-w-3xl mx-auto break-words mt-16">
