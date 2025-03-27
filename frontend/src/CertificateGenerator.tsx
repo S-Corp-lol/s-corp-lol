@@ -7,8 +7,9 @@ import confetti from "canvas-confetti";
 import { Loader2 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import Logo from "@/assets/S-Square.png";
-import BuyMeACoffee from "./components/BuyMeACoffee";
-import FooterLite from "./components/FooterLite";
+import BuyMeACoffee from "@/components/BuyMeACoffee";
+import FooterLite from "@/components/FooterLite";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 const CongratulationsFireworks = () => {
   const duration = 5 * 1000;
@@ -181,6 +182,7 @@ export default function CertificateGenerator() {
             )}
           </Button>
           <BuyMeACoffee />
+          <NewsletterSignup />
         </motion.div>
       )}
       <FooterLite />
