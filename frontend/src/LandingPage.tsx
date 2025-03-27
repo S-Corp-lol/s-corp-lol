@@ -56,6 +56,11 @@ export default function LandingPage() {
         </Button>
       </Link>
 
+<Link to="/merch">
+<Button className="text-lg px-6 py-4 rounded-2xl shadow-lg mt-4">
+          Visit the Merch Store 🛒
+          </Button>
+</Link>
       <div className="mt-10 w-full max-w-6xl flex flex-col sm:flex-row flex-wrap justify-center gap-4 px-4">
       {testimonials.map((text, i) => (
           <div

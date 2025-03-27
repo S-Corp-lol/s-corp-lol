@@ -5,6 +5,7 @@ import CertificateGenerator from "./CertificateGenerator";
 import LandingPage from "./LandingPage";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Plausible from "plausible-tracker";
+import MerchStore from "./MerchStore";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/gen" element={<CertificateGenerator />} />
+        <Route path="/merch" element={<MerchStore /> } />
         {/* <Route path="/about" element={<About />} /> */}
       </Routes>
     </BrowserRouter>
