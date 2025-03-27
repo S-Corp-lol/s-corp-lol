@@ -1,4 +1,5 @@
 import { Button } from "./components/ui/button";
+import { toast } from "react-toastify";
 
 const merchItems = [
   {
@@ -38,9 +39,13 @@ export default function MerchStore() {
         },
         body: JSON.stringify({ item: itemTitle })
       });
+      toast.success("Thanks! If we get enough interest, we might actually make this real.");
+
       console.log(`Webhook sent for: ${itemTitle}`);
     } catch (err) {
       console.error("Webhook failed", err);
+      toast.error("Something went wrong. Try again later?");
+
     }
   };
   
