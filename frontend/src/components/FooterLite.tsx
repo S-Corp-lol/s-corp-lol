@@ -1,8 +1,10 @@
 import {ReactSVG} from "react-svg";
 import ComnocoLogo from "@/assets/Comnoco_Logo.svg";
+import ProductHuntBadge from "./ProductHunt";
 const FooterLite = () => {
   return (
     <footer className="w-full text-center text-sm text-zinc-500 px-6 pb-10 space-y-4 max-w-3xl mx-auto break-words mt-16">
+      <ProductHuntBadge />
       <div>
         <strong>S Corp™</strong> is a parody certification for startups that
         want to feel ethical without the hassle of doing anything meaningful. It
